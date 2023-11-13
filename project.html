@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/gamurger.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script async src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container header">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+            
+                <ul class="menu__box">
+                    <li>ЛИЧНЫЙ КАБИНЕТ</li>
+                    <li><a class="menu__item" href="#">Вход в Личный кабинет</a></li>
+                    <li>КАК ЭТО РАБОТАЕТ</li>
+                    <li><a class="menu__item" href="#">Условия использования сервиса</a></li>
+                    <li><a class="menu__item" href="#">Способы оплаты</a></li>
+                    <li><a class="menu__item" href="#">Часто задаваемые вопросы</a></li>
+                    <li><a class="menu__item" href="#">Служба поддержки</a></li>
+                </ul>
+            </div>
+            <img src="image/logo_site-logo.svg" alt="logo site">
+            <img class="help-img" src="image/ic_help.svg" alt="">
+        </div>
+    </header>
+    <div class="container">
+        <div class="d7">
+            <img class="back-img" src="image/pic_main@2x.jpg" alt="">
+            <form class="search" action="">
+                <h2>Поиск начислений</h2>
+                <input type="text" placeholder="Введите данные для поиска">
+                <button type="submit">
+                    <?xml version="1.0" ?><svg contentScriptType="text/ecmascript" contentStyleType="text/css" enable-background="new 0 0 2048 2048" height="auto" id="Layer_1" preserveAspectRatio="xMidYMid meet" version="1.1" viewBox="0.0 0 1664.0 2048" width="auto" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"><path d="M1152,960c0-123.333-43.833-228.833-131.5-316.5S827.333,512,704,512s-228.833,43.833-316.5,131.5S256,836.667,256,960  s43.833,228.833,131.5,316.5S580.667,1408,704,1408s228.833-43.833,316.5-131.5S1152,1083.333,1152,960z M1664,1792  c0,34.667-12.667,64.667-38,90s-55.333,38-90,38c-36,0-66-12.667-90-38l-343-342c-119.333,82.667-252.333,124-399,124  c-95.333,0-186.5-18.5-273.5-55.5s-162-87-225-150s-113-138-150-225S0,1055.333,0,960s18.5-186.5,55.5-273.5s87-162,150-225  s138-113,225-150S608.667,256,704,256s186.5,18.5,273.5,55.5s162,87,225,150s113,138,150,225S1408,864.667,1408,960  c0,146.667-41.333,279.667-124,399l343,343C1651.667,1726.667,1664,1756.667,1664,1792z"/></svg>
+                </button>
+                <p>Чем больше параметров введено, тем полнее результаты поиска</p>
+            </form>
+        </div>
+    </div>
+    <div class="bg">
+      <div class="container block2">
+        <h2>Узнайте, как оплатить</h2>
+          <div class="accordion">
+            <dl>
+              <dt>
+                <img src="image/ic_gibdd1.svg" alt="">
+                <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title is-collapsed accordionTitle js-accordionTrigger">
+                  Штрафы ГИБДД</a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed is-expanded" id="accordion1" aria-hidden="true">
+                <p>Для поиска укажите номера водительского удостоверения и свидетельства о регистрации ТС или номер штрафа. Если у вас есть на руках постановление о штрафе, вы можете указать реквизиты самостоятельно.</p>
+                <p><span style="color: red;">ПЛАТИТЬ ВОВРЕМЯ — ДЕШЕВЛЕ!</span><br/> В первые 20 дней после выдачи постановления штраф можно оплатить со скидкой 50%. Для своевременной оплаты штрафов настройте уведомления в Личном кабинете.</p>
+              </dd> 
+              <dt>
+                <img src="image/ic_fssp.svg" alt="">
+                <a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title is-collapsed accordionTitle js-accordionTrigger">
+                  Судебные задолжности</a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed is-expanded" id="accordion2" aria-hidden="true">
+                <p>Для поиска начислений в ГИС ГМП укажите документы: паспорт РФ, ИНН, СНИЛС или номер Исполнительного производства. Вы можете указать реквизиты платежа самостоятельно, заполнив форму.</p>
+                <p><span style="color: red;">УДОБНО!</span> Судебные задолженности можно погасить как сразу, так и по частям, комфортными для вас платежами. Информацию о совершенных платежах сохраняйте в Личном кабинете.</p>
+              </dd>
+              <dt>
+                <img src="image/ic_nalog.svg" alt="">
+                <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">
+              Налоги
+                </a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
+                <p>Для поиска начислений по налогам в ГИС ГМП укажите ИНН или Индекс налогового документа, если у вас на руках есть квитанция.</p>
+                <p><span style="color: red;">ВАЖНО!</span> Согласно законодательству РФ вы не можете оплачивать налоги за других физических лиц. Принимаются только платежи физических лиц.</p>
+              </dd>
+              <dt>
+                <img src="image/ic_rr.svg" alt="">
+                <a href="#accordion4" aria-expanded="false" aria-controls="accordion4" class="accordion-title accordionTitle js-accordionTrigger">
+              Услуги Росреестра
+                </a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed" id="accordion4" aria-hidden="true">
+                <p>В поисковой строке укажите Код платежа, который был отправлен вам на почтовый ящик, указанный при подаче запроса в Росреестре.</p>
+                <p><span style="color: red;">НЕТ КОДА?</span> Если у вас ещё нет кода платежа, перейдите на сайт <a href="https://rosreestr.gov.ru/">rosreestr.ru</a> и сформируйте запрос на оплату электронных услуг Росреестра.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="container block3">
+          <p class="h2">Здесь можно оплатить</p>
+          <div class="list">
+            <a href="#1" class="accordion-title">Штрафы ГИБДД</a>
+            <a href="#2" class="accordion-title">Судебные задолженности</a>
+            <a href="#3" class="accordion-title">Налоги</a>
+            <a href="#4" class="accordion-title">Услуги Росреестра</a>
+            <a style="text-decoration: none;">и другие услуги</a>
+          </div>
+          <div class="description">
+            <div class="clin">
+              <div>
+                <p class="h2" id="1">Штрафы ГИБДД</p>
+                <p>Для поиска укажите номера водительского удостоверения и свидетельства о регистрации ТС или номер штрафа. Если у вас есть на руках постановление о штрафе, вы можете указать реквизиты самостоятельно.</p>
+                <p><span style="color: red;">ПЛАТИТЬ ВОВРЕМЯ — ДЕШЕВЛЕ!</span><br/> В первые 20 дней после выдачи постановления штраф можно оплатить со скидкой 50%. Для своевременной оплаты штрафов настройте уведомления в Личном кабинете.</p>
+              </div>
+              <img src="image/pic_block1.png" alt="">
+            </div>
+            <div class="clin">
+              <img src="image/pic_block2.png" alt="">
+              <div>
+                <p class="h2" id="2">Судебные задолжности</p>
+                <p>Для поиска начислений в ГИС ГМП укажите документы: паспорт РФ, ИНН, СНИЛС или номер Исполнительного производства. Вы можете указать реквизиты платежа самостоятельно, заполнив форму.</p>
+                <p><span style="color: red;">УДОБНО!</span> Судебные задолженности можно погасить как сразу, так и по частям, комфортными для вас платежами. Информацию о совершенных платежах сохраняйте в Личном кабинете.</p>
+              </div>
+            </div>
+            <div class="clin">
+              <div>
+                <p class="h2" id="3">Налоги</p>
+                <p>Для поиска начислений по налогам в ГИС ГМП укажите ИНН или Индекс
+                  налогового документа, если у вас на руках есть квитанция.</p>
+                <p><span style="color: red;">ВАЖНО!</span>
+                Согласно законодательству РФ вы не можете оплачивать налоги за других физических лиц.
+                Принимаются только платежи физических лиц.</p>
+              </div>
+              <img src="image/pic_block3.png" alt="">
+            </div>
+            <div class="clin">
+              <img src="image/pic_block4.png" alt="">
+              <div>
+                <p class="h2" id="4">Услуги Росреестра</p>
+                <p>В поисковой строке укажите Код платежа, который был отправлен вам на
+                   почтовый ящик, указанный при подаче запроса в Росреестре.</p>
+                <p><span style="color: red;">НЕТ КОДА?</span> Если у 
+                  вас ещё нет кода платежа, перейдите на сайт 
+                  <a href="https://rosreestr.gov.ru/">rosreestr.ru</a> и 
+                  сформируйте запрос на оплату электронных услуг Росреестра.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="bg">
+      <div class="container">
+        <h2>С нами работают</h2>
+        <div class="patern">
+          <div>
+            <img src="image/logo_partner1.svg" alt="">
+            <p>Партнёр 1</p>
+          </div>
+          <div>
+            <img src="image/logo_partner2.svg" alt="">
+            <p>Компания-партнер с длинным названием</p>
+          </div>
+          <div>
+            <img src="image/logo_partner3.svg" alt="">
+            <p>Партнёр 3</p>
+          </div>
+          <div>
+            <img src="image/logo_partner4.svg" alt="">
+            <p>Название партнёра 4</p>
+          </div>
+          <div>
+            <img src="image/logo_partner5.svg" alt="">
+            <p>Компания-партнёра 5</p>
+          </div>
+          <div>
+            <img src="image/logo_partner6.svg" alt="">
+            <p>Партнер 6 с длинным названием</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      <footer>
+        <p>© 2012 – 2020 ООО «Название компании»</p>
+        <img src="image/comodossl-trustlogo2.png" alt="">
+      </footer>
+</body>
+</html>

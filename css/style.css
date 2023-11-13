@@ -1,0 +1,137 @@
+/*---Header------------*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width:800px;
+    margin:0 auto;
+    padding: 1rem;
+  }
+.header {
+    display: flex;
+    justify-content: flex-start;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background: white;
+}
+.help-img{
+  display: none;
+}
+h2, .h2{
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    transition-duration: .25s;
+    text-align: center;
+}
+.h2{
+  font-size: 25px;
+  display: none;
+}
+.bg{
+  background-color: white;
+}
+/*---SEARCH------*/
+.d7 {
+  margin-top: 30%;
+}
+.back-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  min-height: 19em;
+}
+.search input{
+  padding: 1rem;
+  border: 2px solid #8f9dff;
+  border-radius: 10px;
+  width: 90%;
+}
+.search input::placeholder{
+  color: silver;
+}
+.search{
+  display: flex;
+  position: relative;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.search button{
+  width: 35px;
+  height: 30px;
+  border: none;
+  position: absolute;
+  top: 64px;
+  right: 0;
+}
+.search h2,
+.search p{
+  color: #fff;
+}
+.search p{
+  text-align: start;
+  font-size: 13px;
+}
+/* ---- */
+.block2{
+  margin-top: 3rem;
+  background-color: #fff;
+}
+.block3{
+  display: none;
+  margin-top: 8rem;
+}
+.list{
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: center;
+}
+.list a{
+  font-size: 20px;
+  padding: 0 1rem;
+}
+.clin{
+  display: flex;
+  margin: 2rem 0;
+}
+.clin p{
+  font-size: 18px;
+}
+.clin img,
+.clin div{
+  padding: 1rem;
+}
+/* --Partner-- */
+.patern{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.patern div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.patern p{
+  text-align: center;
+}
+/* ---footer--- */
+footer p, footer img{
+  text-align: center;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00468533;
+  padding-bottom: 3rem;
+}

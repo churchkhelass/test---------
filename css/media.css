@@ -1,0 +1,40 @@
+@media screen and (min-width:800px) {
+    .help-img{
+        display: block;
+    }
+    .header {
+        justify-content: space-between;
+    }
+    /* -gamburger- */
+    .menu__box{
+        left: -100%;
+        width: 30%;
+    }
+    .menu__btn{
+        right: auto;
+        top: 38px;
+    }
+    #menu__toggle:checked ~ .menu__box {
+        left: 0 !important;
+    }
+    .patern{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .block2 h2,
+    .block2{
+        display: none;
+    }
+    .h2,
+    .block3 {
+        display: block;
+    }
+
+
+
+}
+@media screen and (min-width:370px) {
+    .search button{
+      right: 4%;
+    }
+  }
